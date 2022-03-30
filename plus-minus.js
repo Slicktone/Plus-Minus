@@ -30,7 +30,12 @@ function plusMinus(arr) {
     //defining variables
     const n = arr.length;
     let [pos, neg, zero] = [0, 0, 0];
-    
+    //open iteration
+    if (n !== 0) {
+        arr.array.forEach(i => {
+            i > 0 ? pos++ : i < 0 ? neg++ : zero++;
+        });
+    }
 
 }
 
