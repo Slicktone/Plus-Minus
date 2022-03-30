@@ -27,7 +27,10 @@ function readLine() {
  */
 
 function plusMinus(arr) {
-    // Write your code here
+    //defining variables
+    const n = arr.length;
+    let [pos, neg, zero] = [0, 0, 0];
+    
 
 }
 
